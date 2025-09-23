@@ -1,0 +1,21 @@
+.work-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.portfolio-item .date {
+    font-size: 0.8rem;
+    color: #888;
+}

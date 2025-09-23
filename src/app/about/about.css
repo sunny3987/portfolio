@@ -1,0 +1,43 @@
+.about-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #ddd;
+}
+
+.timeline li {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 30px;
+}
+
+.timeline li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #fce37d;
+    border-radius: 50%;
+    border: 3px solid #f7f3e8;
+}
+
+.timeline-year {
+    font-weight: 600;
+    color: #333;
+}

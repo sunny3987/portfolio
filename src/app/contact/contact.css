@@ -1,0 +1,22 @@
+.contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact-info {
+    max-width: 500px;
+}
+
+.contact-links p {
+    margin: 5px 0;
+}
