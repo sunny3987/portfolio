@@ -1,16 +1,50 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <section id="contact" class="contact-section">
-            <h2 class="section-title">contact.</h2>
-            <div class="contact-content">
-                <div class="contact-image">
-                    <img src="https://via.placeholder.com/250x180" alt="Contact image">
-                </div>
-                <div class="contact-info">
-                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate tristique quam felis, id phasellus dui orci vulputate consequat nulla proin, id sit scelerisque neque, proin bibendum diam.</p>
-                    <div class="contact-links">
-                        <p>johndoe@mail.com</p>
-                        <p>twitter.com/johndoe</p>
-                        <p>behance.com/johndoe</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <h2 class="section-title">Contact Info</h2>
+  <div class="contact-content">
+    <div class="contact-image">
+
+    </div>
+    <div class="contact-info">
+      <p class="section-description">
+
+      </p>
+
+      <div class="contact-box">
+        <div class="contact-details">
+          <p><i class="fas fa-envelope"></i> <strong>Email:</strong><a
+              href="mailto:demonking6055@example.com">demonking6055@gmail.com</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Noida, Uttar Pradesh, India</p>
+        </div>
+
+        <div class="contact-links">
+          <p><i class="fab fa-instagram"></i> <strong>instagram:</strong> <a
+              href="https://www.instagram.com/sunnysingh3987?igsh=bzV1MHA1Z2g4ODBw" target="_blank">instagram.com/Sunny
+              Kumar</a></p>
+          <p><i class="fab fa-github"></i> <strong>instagram:</strong> <a href="https://github.com/sunny3987"
+              target="_blank">github.com/Sunny Kumar</a></p>
+          <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a
+              href="https://www.linkedin.com/in/sunny-kumar-62a61a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank">linkedin.com/Sunny Kumar</a></p>
+        </div>
+        <form class="contact-form" action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+          <h3>Send me a message</h3>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="Name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" placeholder="Your email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="5" placeholder="Write your message here..." required></textarea>
+
+          <button type="submit"(click)="buttonclick()">Send</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+</section>

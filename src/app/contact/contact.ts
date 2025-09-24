@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Contact {
 
+  buttonclick(){
+    alert("form submitted");
+  }
 }
